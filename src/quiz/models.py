@@ -63,4 +63,3 @@ class Answer(Update):
 
     def __str__(self):
         return self.answer_text
-
