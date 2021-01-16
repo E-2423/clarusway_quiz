@@ -6,4 +6,3 @@ urlpatterns = [
     path("<category>/", CategoryDetail.as_view(), name="category-detail"),
     path("question/<title>/", QuizDetail.as_view(), name="question")
 ]
-

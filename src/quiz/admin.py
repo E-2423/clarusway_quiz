@@ -3,7 +3,7 @@ import nested_admin
 from .models import Category, Quiz, Question, Answer
 
 
-class AnswerInline(nested_admin.NestedTabularInline):  # ınline olarak hazırlıyor
+class AnswerInline(nested_admin.NestedTabularInline):
     model = Answer
     extra = 5
     max_num = 8
